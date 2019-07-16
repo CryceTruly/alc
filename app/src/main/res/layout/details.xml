@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent" android:weightSum="2"
+                  android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="20dp"
+                  android:layout_margin="5dp" android:textSize="21sp" android:text="Track:"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"
+                  android:textSize="21sp" android:text="Android"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:weightSum="2"
+                  android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="20dp"
+                  android:layout_margin="5dp" android:textSize="21sp" android:text="Country:"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"
+                  android:textSize="21sp" android:text="Uganda"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:weightSum="2"
+                  android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="20dp"
+                  android:layout_margin="5dp" android:textSize="21sp" android:text="Email:"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"
+                  android:textSize="21sp" android:text="crycetruly@gmail.com"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:weightSum="2"
+                  android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="20dp"
+                  android:layout_margin="5dp" android:textSize="21sp" android:text="Phone Number:"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"
+                  android:textSize="21sp" android:text="256758939187"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:weightSum="2"
+                  android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="20dp"
+                  android:layout_margin="5dp" android:textSize="21sp" android:text="Slack Username:"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"
+                  android:textSize="21sp" android:text="@chryce"/>
+
+    </LinearLayout>
+
+</LinearLayout>
